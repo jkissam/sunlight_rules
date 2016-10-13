@@ -1,0 +1,8 @@
+name = Sunlight Rules
+description = Provides a Rules action to call Sunlight's APIs
+core = 7.x
+package = Rules
+version = 7.x-1.0-alpha1
+dependencies[] = rules
+dependencies[] = sunlight
+files[] = sunlight_rules.module

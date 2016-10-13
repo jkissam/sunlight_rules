@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * base module code
+ */
+
+/**
+ * implements hook_permission
+ */
+function sunlight_rules_permission() {
+	$items = array();
+
+	$items['use sunlight rules'] = array(
+		'title' => t('Use Sunlight Rules'),
+		'description' => t('Configure Rules which make calls to the Sunlight API'),
+		'restrict access' => TRUE,
+	);
+
+	return $items;
+}
+
+
